@@ -1,0 +1,59 @@
+.bossfight-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: var(--background-gradient);
+}
+
+.bossfight-card {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* glass-card base */
+.bossfight-card {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+
+  /* Black tinted glass effect */
+  background: rgba(0, 0, 0, 0.35); /* soft black tint */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.section-title {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.step-title {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.section-intro,
+.step-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.step-list {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+  list-style: decimal inside;
+  color: var(--text-color);
+}
+
+.step-list li {
+  margin-bottom: 0.5rem;
+}
