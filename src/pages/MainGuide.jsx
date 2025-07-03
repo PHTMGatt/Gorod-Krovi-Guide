@@ -6,7 +6,7 @@ const MainGuide = () => (
     <article className="glass-card main-guide-card">
       <h1 className="main-guide-title">Love and War</h1>
       <p className="main-guide-subtext">
-        Love and War is the main Easter Egg on Gorod Krovi in Call of Duty: Black Ops III. You have 115 minutes (1 hr 55 min) to complete it; co-op is recommended for multitasking through the timed, randomized steps.
+        Love and War is the main Easter Egg on Gorod Krovi in Call of Duty: Black Ops III. While complex and multi-phased, it can be completed solo or co-op — teamwork helps speed up its randomized challenges.
       </p>
 
       <section id="prerequisites">
