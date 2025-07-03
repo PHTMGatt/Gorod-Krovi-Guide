@@ -2,23 +2,14 @@
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  background: var(--background-gradient);
+  background: transparent;
 }
 
 .bossfight-card {
   max-width: 800px;
   width: 100%;
   padding: 2rem;
-}
-
-/* glass-card base */
-.bossfight-card {
-  max-width: 800px;
-  width: 100%;
-  padding: 2rem;
-
-  /* Black tinted glass effect */
-  background: rgba(0, 0, 0, 0.35); /* soft black tint */
+  background: rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   backdrop-filter: blur(12px);
@@ -26,34 +17,29 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
+/* Main red title */
 .section-title {
   font-size: 2.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: var(--accent-color);
+  text-align: center;
+  font-weight: bold;
 }
 
-.step-title {
+/* Yellow glowing subtitles */
+.step-title-glow {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
   margin-bottom: 0.75rem;
-  color: var(--text-color);
+  color: #ffc857;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(255, 200, 87, 0.4);
 }
 
-.section-intro,
+/* Body text */
 .step-text {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text-color);
   margin-bottom: 1rem;
-}
-
-.step-list {
-  margin-left: 1.25rem;
-  margin-bottom: 1rem;
-  list-style: decimal inside;
-  color: var(--text-color);
-}
-
-.step-list li {
-  margin-bottom: 0.5rem;
 }

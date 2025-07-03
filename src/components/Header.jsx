@@ -9,7 +9,7 @@ const Header = () => (
     <div className="header-content">
       <div className="header-left">
         <h1 className="header-title">Gorod Krovi Easter Egg Guide</h1>
-        <p className="header-subtitle">Your step-by-step companion through Stalingrad.</p>
+        <p className="header-subtitle">Decode SOPHIA’s mission through the fires of Stalingrad.</p>
       </div>
       <nav className="header-nav">
         <NavLink end to="/" className="nav-link">Main Guide</NavLink>

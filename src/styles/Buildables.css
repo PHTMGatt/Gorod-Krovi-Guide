@@ -1,9 +1,16 @@
 /* Buildables.css */
 
-/* ── Container behaves like .trophies-card ── */
+/* ── Page wrapper to center content ── */
+.buildables-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+/* ── Outer glass card container ── */
 .buildables-card {
   width: 100%;
-  max-width: 900px;        /* same as trophies-card */
+  max-width: 900px;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(255, 0, 0, 0.2);
@@ -13,7 +20,7 @@
   text-align: center;
 }
 
-/* ── Section title matches Trophy style ── */
+/* ── Section title ── */
 .section-title {
   font-size: 2.25rem;
   margin-bottom: 0.75rem;
@@ -21,7 +28,7 @@
   text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
-/* ── Section intro text matches .section-intro ── */
+/* ── Subtitle text ── */
 .buildables-card .section-subtitle {
   font-size: 1rem;
   margin-bottom: 1.5rem;
@@ -29,15 +36,15 @@
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.08);
 }
 
-/* ── Grid wrapper ── */
+/* ── Grid layout for buildable items ── */
 .buildables-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
   justify-items: center;
 }
 
-/* ── Inner cards now exactly .trophy-card ── */
+/* ── Step card ── */
 .step-card {
   padding: 1rem;
   background: rgba(0, 0, 0, 0.3);
@@ -45,10 +52,9 @@
   border-radius: 0.75rem;
   transition: all 0.3s ease;
   box-shadow: 0 0 12px rgba(255, 0, 0, 0.05);
-  margin: 1rem; /* spacing between cards */
 }
 
-/* ── Hover state matches trophy hover ── */
+/* ── Step card hover effect ── */
 .step-card:hover {
   transform: translateY(-6px);
   background: rgba(0, 0, 0, 0.5);
@@ -56,7 +62,7 @@
   box-shadow: 0 0 18px rgba(255, 0, 0, 0.2);
 }
 
-/* ── Titles inside inner cards match .trophy-title ── */
+/* ── Step title ── */
 .step-card .step-title {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
@@ -65,7 +71,7 @@
   text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
 }
 
-/* ── Bullet list styling for buildables ── */
+/* ── Bullet list ── */
 .step-list {
   list-style: disc inside;
   margin: 0.5rem 0 0;

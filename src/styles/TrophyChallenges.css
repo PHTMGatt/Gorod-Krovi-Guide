@@ -1,5 +1,6 @@
 /* TrophyChallenges.css */
 
+/* ── Page wrapper ── */
 .trophies-page {
   display: flex;
   justify-content: center;
@@ -7,6 +8,7 @@
   background: var(--background-gradient);
 }
 
+/* ── Outer glass card ── */
 .trophies-card {
   width: 100%;
   max-width: 900px;
@@ -19,7 +21,7 @@
   text-align: center;
 }
 
-/* Title and intro text */
+/* ── Section title ── */
 .section-title {
   font-size: 2.25rem;
   margin-bottom: 0.75rem;
@@ -27,6 +29,7 @@
   text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
+/* ── Section intro ── */
 .section-intro {
   font-size: 1rem;
   margin-bottom: 1.5rem;
@@ -34,14 +37,15 @@
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.08);
 }
 
-/* Trophy list layout */
+/* ── Grid layout for trophies ── */
 .trophies-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  justify-items: center;
 }
 
-/* Trophy card style */
+/* ── Trophy card ── */
 .trophy-card {
   padding: 1rem;
   background: rgba(0, 0, 0, 0.3);
@@ -51,6 +55,7 @@
   box-shadow: 0 0 12px rgba(255, 0, 0, 0.05);
 }
 
+/* ── Hover glow ── */
 .trophy-card:hover {
   transform: translateY(-6px);
   background: rgba(0, 0, 0, 0.5);
@@ -58,7 +63,7 @@
   box-shadow: 0 0 18px rgba(255, 0, 0, 0.2);
 }
 
-/* Trophy card text */
+/* ── Card title ── */
 .trophy-title {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
@@ -67,6 +72,7 @@
   text-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
 }
 
+/* ── Card description ── */
 .trophy-description {
   font-size: 0.95rem;
   line-height: 1.5;
