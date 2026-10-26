@@ -1,5 +1,7 @@
 # 🐉 Gorod Krovi Easter Egg Guide
 
+![Gorod Krovi portfolio artwork](https://raw.githubusercontent.com/PHTMGatt/12-React-Portfolio/a2c43d8301679dbda14ad06dc225d61e5515e431/src/assets/project-images/GK.png)
+
 A modern, React-based guide for completing the **Gorod Krovi** Zombies Easter Egg — including valve puzzles, trophy challenges, buildables, and the final boss fight.
 
 ## 🚀 Features
